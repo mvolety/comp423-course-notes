@@ -37,7 +37,8 @@ Before diving in, ensure you have the following:
 1. Open your terminal and navigate to where you'd like to create the project.
 2. Create a new directory for your project and initialize a Git repository:
     * `mkdir rust-dev-container`
-    * `cd rust-dev-container git init`
+    * `cd rust-dev-container` 
+    * `git init`
 3. Add a README file:
     * `echo "# Rust Dev Container Project" > README.md`
     * `git add README.md`

@@ -22,6 +22,8 @@ By completing this tutorial, you will:
 - Write, build, and run a "Hello COMP423" program in Rust.
 - Understand Rust's build and run workflow using `cargo`.
 
+[//]: # (Possibly move the first bullet to be after the current third bullet point for chronological clarity)
+
 ## Prerequisites
 
 Before diving in, ensure you have the following:
@@ -29,6 +31,8 @@ Before diving in, ensure you have the following:
 - **Visual Studio Code (VS Code)**: [Download VS Code](https://code.visualstudio.com/).
 - **Dev Containers Extension**: Install the [Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 - **Docker Desktop**: [Install Docker](https://www.docker.com/).
+
+[//]: # (Add git installation as a prereq)
 
 ## Part 1: Setting Up the Project
 
@@ -46,6 +50,7 @@ Before diving in, ensure you have the following:
 
 ### Step 2: Create the Dev Container Configuration
 
+[//]: # (Specify that the commands are run in the)
 1. Create a `.devcontainer` folder in the project directory: 
     * `mkdir .devcontainer`.
 2. Inside `.devcontainer`, create a `devcontainer.json` file with the following content:
@@ -77,7 +82,7 @@ Before diving in, ensure you have the following:
 ### Step 1: Use cargo to Create a New Project
 
 1. Inside the container, use cargo to create a new binary project.
-
+    [//]: # (Specify the commands are in the terminal for clarity)
    - Create a new project: `cargo new hello_comp423 --vcs none`
    - Navigate into the project directory: `cd hello_comp423`
 

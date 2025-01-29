@@ -175,7 +175,7 @@ Now that your configuration is ready, let’s test it out:
 1. Add and commit your changes:
 
         git add .
-        git commit -m "Finished Rust tutorial""
+        git commit -m "Finished Rust tutorial"
 
 2. Push the changes to GitHub:
 
